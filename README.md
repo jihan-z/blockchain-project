@@ -192,34 +192,9 @@ npm run start
     └── package.json
 ```
 
-## 功能实现详情
-
-### ✅ 基础功能
-
-- [x] 公证人创建竞猜项目（支持多个选项）
-- [x] 玩家购买彩票（获得 ERC721 NFT 凭证）
-- [x] 彩票交易功能（ERC721 委托和转移）
-- [x] 项目结算和奖励分配
-
-### ✅ Bonus 功能
-
-- [x] **ERC20 代币支持**（2分）：实现 LotteryToken 合约，支持使用代币购买彩票和领取奖励
-- [x] **链上订单簿**（3分）：实现 OrderBook 合约，支持挂单、订单簿显示和最优价格购买
-
-## 参考资源
-
-- 课程参考 Demo：[DEMOs](https://github.com/LBruyne/blockchain-course-demos)
-- OpenZeppelin 合约模板：[ERC20/ERC721 Wizard](https://wizard.openzeppelin.com/)
-- Hardhat 文档：[Hardhat Documentation](https://hardhat.org/docs)
-- Ethers.js 文档：[Ethers.js Documentation](https://docs.ethers.io/)
-
 ## 注意事项
 
 1. **测试网络**：本项目使用 Ganache 本地测试网络，请确保 Ganache 运行正常
 2. **Gas 费用**：在测试网络上操作不需要真实 Gas 费用，但需要确保账户有足够的 ETH
 3. **合约授权**：交易彩票前需要先授权 OrderBook 合约转移 NFT
 4. **代币余额**：使用代币支付时，确保账户有足够的代币余额
-
-## 许可证
-
-MIT License
